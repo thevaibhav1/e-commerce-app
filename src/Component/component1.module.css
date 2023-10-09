@@ -1,0 +1,89 @@
+/* component1.module.css */
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.buttons button {
+  margin-left: 10px;
+  background-color: #fff;
+  color: #333;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttons button:hover {
+  background-color: #ddd;
+}
+
+/* Modal Styles */
+.react-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-modal-content {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  width: 400px; /* Adjust the width based on your design */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-heading {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.modal-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.modal-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-buttons button {
+  margin-left: 10px;
+}
